@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.0\n"
+"POT-Creation-Date: 2019-10-25 20:00+0900\n"
+"PO-Revision-Date: 2019-10-25 20:02+0900\n"
+"Last-Translator: An, Hyeong-woo <mytory@gmail.com>\n"
+"Language-Team: mytory <mail@mytory.net>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: main.php:63 main.php:260 main.php:261 settings.php:6
+msgid "Settings"
+msgstr "설정"
+
+#: main.php:93 meta-box.php:32
+msgid "Update"
+msgstr "갱신"
+
+#: main.php:161
+msgid "No change."
+msgstr "바뀐 게 없습니다. "
+
+#: main.php:266
+msgid "Migrate from Mytory Markdown"
+msgstr "Mytory Markdown에서 이전해 오기"
+
+#: main.php:267
+msgid "Mytory Markdown for Dropbox: Migrate from Mytory Markdown"
+msgstr "Mytory Markdown for Dropbox: Mytory Markdown에서 이전"
+
+#: main.php:299
+msgid "The code is invalid. "
+msgstr "잘못된 코드입니다."
+
+#: main.php:328
+msgid "Complete."
+msgstr "완료."
+
+#: main.php:396
+msgid "Network Error! HTTP STATUS is "
+msgstr "네트워크 에러! HTTPS STATUS"
+
+#: main.php:401
+msgid "Network Error! Maybe, connection error."
+msgstr "네트워크 에러! 아마도 연결 문제인 것 같습니다."
+
+#: meta-box.php:7
+msgid ""
+"You need to sign in to Dropbox and grant this plugin access to your Dropbox "
+"files"
+msgstr ""
+"드롭박스에 로그인해서 연결해 주세요. 그래야 드롭박스에 있는 파일을 포스트와 "
+"연결할 수 있습니다."
+
+#: meta-box.php:14
+msgid "File"
+msgstr "파일"
+
+#: meta-box.php:18
+msgid "Select"
+msgstr "선택"
+
+#: meta-box.php:23
+msgid "First h1 will be title."
+msgstr "첫 번째 h1이 제목이 됩니다."
+
+#: meta-box.php:35
+msgid "Update Editor Content"
+msgstr "에디터 내용 갱신"
+
+#: meta-box.php:37
+msgid "Loading..."
+msgstr "로딩중..."
+
+#: meta-box.php:45
+msgid "Please let me know about bugs, your ideas, etc!"
+msgstr "버그를 알려 주시거나, 개선 사항을 제안해 주세요."
+
+#: meta-box.php:54
+msgid "Please Rate and Review"
+msgstr "별점 5개 부탁합니다. 한글 리뷰도 환영!"
+
+#: meta-box.php:59
+msgid "Donate"
+msgstr "후원"
+
+#: migrate.php:3
+msgid "Migrate from Mytory Markdown to Mytory Markdown for Dropbox"
+msgstr "Mytory Markdown에서 Mytory Markdown for Dropbox로 이전해 오기"
+
+#: migrate.php:9
+msgid "Close."
+msgstr "닫기."
+
+#: migrate.php:42
+msgid "URL corresponding to Dropbox folder"
+msgstr "드롭박스 폴더에 해당하는 URL 부분"
+
+#: migrate.php:45
+msgid "Change from"
+msgstr "여기에서"
+
+#: migrate.php:48
+msgid "Above is a string that extracted common substring from markdown paths."
+msgstr ""
+
+#: migrate.php:50
+msgid "Please edit appropriately and convert."
+msgstr "적절하게 수정한 뒤 변환하세요."
+
+#: migrate.php:56
+msgid "Dropbox folder"
+msgstr "드롭박스 폴더"
+
+#: migrate.php:59
+msgid "Change to"
+msgstr "여기로"
+
+#: migrate.php:65
+msgid "Convert"
+msgstr "변환"
+
+#: migrate.php:70
+msgid "Reference: Your Markdown URL List"
+msgstr "참고: 마크다운 URL 목록"
+
+#: migrate.php:76
+msgid "Edit"
+msgstr "편집"
+
+#: migrate.php:81
+msgid "Result: "
+msgstr "결과:"
+
+#: settings.php:21
+msgid "Revoke"
+msgstr "드롭박스 연결 취소"
+
+#: settings.php:25
+msgid "Get code from Dropbox and paste it. Click button below."
+msgstr ""
+"드롭박스에서 코드를 가져와서 붙여 넣기 하세요. 아래 버튼을 누르면 코드를 가"
+"져옵니다."
+
+#: settings.php:29
+msgid "Get Dropbox Code"
+msgstr "드롭박스 코드 얻기"
+
+#: settings.php:59
+msgid "Markdown Engine"
+msgstr "마크다운 엔진"
+
+#: settings.php:73
+#, php-format
+msgid "Your PHP version is %s, so cannot use Parsedown."
+msgstr "서버의 PHP 버전이 %s이라 Parsedown을 사용할 수 없습니다."
+
+#: settings.php:76
+msgid "GitHub Flavored."
+msgstr "GitHub 스타일."
+
+#: settings.php:77 settings.php:99
+msgid "PHP 5.3 or later."
+msgstr "PHP 5.3 이상."
+
+#: settings.php:95
+#, php-format
+msgid "Your PHP version is %s, so cannot use ParsedownExtra."
+msgstr "서버의 PHP 버전이 %s이라 ParsedownExtra를 사용할 수 없습니다."
+
+#: settings.php:98
+msgid "An extension of Parsedown that adds support for Markdown Extra."
+msgstr "Markdown Extra 지원을 추가한 Parsedown의 확장."
+
+#: settings.php:114
+msgid ""
+"It works with PHP 4.0.5 or later. <strong>This version is no longer "
+"supported since February 1, 2014.</strong>"
+msgstr ""
+"PHP 4.0.5 이상에서 작동합니다. <strong>이 버전은 2014년 2월 1일 이후로 더이"
+"상 업데이트하지 않습니다.</strong>"
+
+#: settings.php:147
+msgid "You can use the Muitimarkdown if you install it on your server."
+msgstr "Muitimarkdown이 서버에 있으면 사용할 수 있습니다."
+
+#: settings.php:153
+msgid ""
+"Multimarkdown option will be enabled if a <code>multimarkdown</code> "
+"execution is on OS PATH and web server can run it."
+msgstr ""
+"<code>multimarkdown</code> 실행파일이 OS의 PATH 상에 있고 웹 서버가 실행할 "
+"수 있으면 Multimarkdown 옵션이 활성화됩니다."
+
+#: settings.php:158
+msgid ""
+"Otherwise, you can define <code>MYTORY_MARKDOWN_MULTIMARKDOWN_EXECUTION</"
+"code> constant on <code>wp-config.php</code>."
+msgstr ""
+"그렇지 않으면, <code>MYTORY_MARKDOWN_MULTIMARKDOWN_EXECUTION</code> 상수를 "
+"<code>wp-config.php</code>에 설정할 수 있습니다."
+
+#: settings.php:160
+msgid ""
+"ex) <code>define('MYTORY_MARKDOWN_MULTIMARKDOWN_EXECUTION', '/opt/"
+"multimarkdown/bin/multimarkdown');</code>"
+msgstr ""
+"예) <code>define(‘MYTORY_MARKDOWN_MULTIMARKDOWN_EXECUTION’, ‘/opt/"
+"multimarkdown/bin/multimarkdown’);</code>"
+
+#: settings.php:169
+#, php-format
+msgid "Your PHP version is %s"
+msgstr "현재 PHP 버전은 %s입니다."
+
+#: settings.php:175
+msgid "Markdown File Extensions"
+msgstr "마크다운 파일 확장자"
+
+#: settings.php:181
+msgid "e.g. txt,md,markdown,mdown"
+msgstr "예. txt,md,markdown,mdown"
+
+#: settings.php:183
+msgid ""
+"When selecting a file, only files with that extension are displayed in the "
+"list."
+msgstr "파일을 고를 때, 해당 확장자의 파일만 목록에 표시합니다."
+
+#: settings.php:184
+msgid "Spaces are not allowed."
+msgstr "공백 문자 금지."
+
+#~ msgid "Only one step can be undo."
+#~ msgstr "1단계만 되돌릴 수 있습니다."

@@ -1,0 +1,38 @@
+{
+  "name": "mytory-markdown-for-dropbox",
+  "version": "1.0.2",
+  "description": "Mytory Markdown For Dropbox",
+  "main": "index.js",
+  "dependencies": {
+    "dropbox": "^3.0.5"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --mode=development",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot  --mode=development",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules  --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mytory/mytory-markdown-for-dropbox.git"
+  },
+  "keywords": [
+    "wordpress",
+    "markdown",
+    "mytory"
+  ],
+  "author": "mytory@gmail.com",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mytory/mytory-markdown-for-dropbox/issues"
+  },
+  "homepage": "https://github.com/mytory/mytory-markdown-for-dropbox#readme"
+}
